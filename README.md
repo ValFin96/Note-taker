@@ -39,6 +39,6 @@ npm start
 
 ## Deployments
 
-[Heroku app]()
+[Heroku app](https://thawing-atoll-77394.herokuapp.com/notes)
 
 [Repository Link](https://github.com/ValFin96/Note-taker.git)
