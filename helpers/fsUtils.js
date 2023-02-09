@@ -30,16 +30,15 @@ class dbReader {
                     return data;
                 });
             });
-
-
-        // fs.writeFile('./db/db.json', JSON.stringify(data, null, 4), (err) =>
-        //     err ? console.error(err) : console.info(`\nData successfully written!`)
-        // );
     }
-}
 
-// Promise version of fs.writeFile
-// const writeToFile = util.promisify(fs.writeFile);
+    // deleteData(id) {
+    //     return this.getData()
+    //         .then((notes) => notes.filter((note) => note.id !== id))
+    //         .then((data) =>this.write(data))
+    //         .then(()=> true)
+    // }
+}
 
 /**
  *  Function to write data to the JSON file given a destination and some content
