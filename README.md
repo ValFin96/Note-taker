@@ -42,3 +42,4 @@ npm start
 [Heroku app](https://thawing-atoll-77394.herokuapp.com/notes)
 
 [Repository Link](https://github.com/ValFin96/Note-taker.git)
+![Screenshot](./images/Screenshot%202023-02-09%20215733.jpg)
