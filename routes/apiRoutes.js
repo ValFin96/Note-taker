@@ -58,7 +58,7 @@ router.delete('/notes/:id', (req, res) => {
             if (parsedData[i].id == id) {
                 parsedData.splice(i, 1)
                 console.log(parsedData);
-                dbReader.writeData(parsedData);
+                dbReader.write(parsedData);
                 return res.json(true);
             }
         }
